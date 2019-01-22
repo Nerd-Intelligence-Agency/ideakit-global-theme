@@ -1,0 +1,64 @@
+/*Admin menu style changes*/
+
+/*Add gradiant to active tab*/
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+background-image:  -webkit-linear-gradient(90deg,#f92c8b 0%,#b02cd6 100%)!important;
+background-image:  linear-gradient(90deg,#f92c8b 0%,#b02cd6 100%)!important;
+box-shadow: 2px 2px 6px -3px rgba(0, 0, 0, 0.8);
+width: 102%;
+}
+
+#adminmenu li.menu-top:hover {
+background-image:  -webkit-linear-gradient(90deg,#b02cd6 0%,#f92c8b 100%)!important;
+background-image:  linear-gradient(90deg,#b02cd6 0%,#f92c8b 100%)!important;
+color: #ffffff;
+}
+
+#adminmenu a:hover {
+color: #ffffff;
+}
+
+/*Change admin menu to white and ad shadows*/
+#adminmenuback {
+box-shadow: 0px 0px 13px -4px black;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu {
+box-shadow: inset 0px 0px 15px 0px black;
+}
+
+/*Change color of admin menu*/
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+background-color: #fff;
+}
+
+/*Change admin menu link color*/
+#adminmenu a {
+color: rgb(130, 135, 140);
+}
+/*Admin menu font weight*/
+#adminmenu .wp-submenu-head, #adminmenu a.menu-top {
+font-weight: bold;
+}
+
+#adminmenu div.wp-menu-name {
+padding-left: 10px;
+}
+#adminmenu div.wp-menu-image {
+display: none;
+}
+
+#adminmenu .wp-submenu a {
+color: #777777;
+font-weight: 600;
+}
+
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover {
+color: #f7828e;
+}
+
+
+/*Plugin styling*/
+.erp-setup .erp-logo {
+display: none;
+}
