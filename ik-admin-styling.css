@@ -48,9 +48,17 @@ padding-left: 10px;
 display: none;
 }
 
+/*make submenus when open white*/
 #adminmenu .wp-submenu a {
 color: #777777;
 font-weight: 600;
+}
+
+/*Change color of submenu heading when menu is closed*/
+#adminmenu .wp-submenu .wp-submenu-head {
+    color: #777777;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 #adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover {
